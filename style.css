@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    padding: 5px 10%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+.logo img {
+    max-width: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin: 1rem;
+}
+
+.search input {
+    padding: 0.7rem 4rem;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px #64748b;
+
+}
+
+.sign i {
+    font-size: 30px;
+    
+}
+
+.toggle i {
+    display: none;
+    font-size: 40px;
+    color: #0e382c;
+}
+
+
+
+/* 2 */
+.know-more {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+    background-color: #0e382c;
+    /* border: 2px solid blue; */
+    color: white;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.p p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn button {
+    padding: 0.7rem 1rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* 3 */
+.crafts {
+    /* border: 2px solid red; */
+    padding: 10px 10%;
+    width: 100%;
+}
+
+.crafts h1 {
+    color: #134e4a;
+}
+
+.sub_crafts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 35px 0%;
+}
+
+.item {
+    align-items: center;
+    text-align: center;
+}
+
+.item img {
+    max-width: 80%;
+    width: 100px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.item h5 {
+    font-weight: 500;
+}
+
+
+/* 4 */
+.sub_banner {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    /* align-items: center; */
+    padding: 10px 8%;
+    grid-gap: 1rem;
+    width: 80%;
+    margin: auto;
+    /* height: 30vh; */
+    background-color: #0e382c;
+}
+
+.logo1 img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+
+}
+
+.title p {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.title h1 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.title h3 {
+    margin-bottom: 1rem;
+}
+
+/* 5 */
+.card {
+    padding: 10px 0%;
+}
+
+.cards {
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+
+}
+
+.cardtype {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #0e382c;
+    color: white;
+    transition: ease .40s;
+
+}
+
+.cardtype:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 0 20px #64748b;
+
+}
+
+
+.cardtype img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+}
+
+.buy button {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: ease .40s;
+}
+
+.buy button:hover {
+    background-color: #0d9488;
+    color: white;
+    transform: translateY(-10px);
+}
+
+/* 6 */
+.poster {
+    padding: 60px 10%;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background-color: #0e382c;
+    color: white;
+
+}
+
+.h11 h1 {
+    font-size: 1.4rem;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.innn {
+    /* border: 2px solid red; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0px 10%;
+    background-color: #0e382c;
+
+}
+
+.innn img {
+    width: 100%;
+    height: 50vh;
+    border-radius: 8px;
+}
+
+/* ============developer==================== */
+.dev{
+    background-color: #0e382c;
+    
+    color: white;
+    
+}
+.dev h3{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.dev1{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 220px 840px 150px;
+    /* grid-template-columns: repeat(auto-fit,minmax(220px,auto)); */
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: white;
+    font-weight: 300;
+    border-bottom: 1px solid white;
+}
+.imgdev img{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+
+    
+}
+.bio{
+    list-style: none;
+}
+.bio h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.bio p{
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.links li{
+    list-style: none;
+    
+}
+.dev1 i{
+    color: white;
+    margin-bottom: 1rem;
+    
+}
+
+/* 7 */
+.footer {
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: #0e382c;
+
+}
+
+.sub_footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+    padding: 50px 0%;
+    grid-gap: 0rem;
+    /* background-color: #0e382c; */
+    color: white;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+.items img {
+    max-width: 100%;
+    width: 70px;
+    height: auto;
+}
+
+.items h4 {
+    margin-bottom: 1rem;
+}
+
+.items button {
+    display: flex;
+    padding: 0.7rem 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.items i {
+    font-size: 20px;
+}
+
+.items li {
+    line-height: 50px;
+    list-style: none;
+    font-weight: 300;
+}
+
+/* 8 */
+.company {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px 10%;
+    background-color: #0e382c;
+    color: white;
+
+}
+
+.company p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.company h6 {
+    font-weight: 500;
+}
+
+
+/* RESPONSIVE */
+@media (width < 2500px) {
+    .activate {
+        display: none;
+    }
+}
+
+@media(width < 1430px){
+    .dev1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (width < 930px) {
+    header {
+        padding: 10px 1%;
+    }
+}
+
+@media (width < 760px) {
+    .menu {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .sign {
+        display: none;
+    }
+
+    .toggle i {
+        display: block;
+    }
+
+    /* activate bar */
+
+    .activate {
+        background-color: #0e382c;
+        color: white;
+        width: 100%;
+        height: 50%;
+        top: 70px;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 10px 0%;
+        /* it will hide the content */
+        left: -200%;
+        transition: 0.3s;
+
+    }
+
+    /* when our js will activate this its gonna appear on the screen */
+    .activate.active {
+        left: 0;
+
+    }
+
+    .menus ul {
+        margin: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .menus li {
+        margin: 1.5rem;
+        list-style: none;
+    }
+
+    .searchs input {
+        padding: 1rem 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .signs i {
+        font-size: 40px;
+    }
+}
+
+@media (width < 750px) {
+    .sub_banner {
+        width: 100%;
+    }
+}
+@media (width <660px){
+    .imgdev{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (width < 500px) {
+    .sub_footer {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .items {
+        margin-bottom: 1rem;
+    }
+
+    .company {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .sub_banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        order: 2;
+    }
+
+
+}
+@media (width < 400px){
+    .dev1{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
